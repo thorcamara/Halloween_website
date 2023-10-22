@@ -307,3 +307,19 @@ button {
   display: flex;
   justify-content: space-between;
 }
+
+.swiper-pagination {
+  position: initial;
+  margin-top: var(--mb-1);
+}
+
+.swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+  background-color: var(--title-color);
+  opacity: 1;
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 .5rem;
+}
