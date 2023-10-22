@@ -273,3 +273,21 @@ button {
   top: -3rem;
   right: 45%;
 }
+
+.home__details-img {
+  position: absolute;
+  right: .5rem;
+}
+
+.home__details-title,
+.home__details-subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  text-align: right;
+}
+
+.home__subtitle {
+  font-size: var(--h3-font-size);
+  text-transform: uppercase;
+  margin-bottom: var(--mb-1);
+}
