@@ -130,3 +130,26 @@ button {
 .main {
   overflow: hidden;
 }
+
+.header {
+  width: 100%;
+  background: var(--body-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+}
+
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  font-weight: var(--font-medium);
+}
