@@ -455,3 +455,16 @@ button {
   right: -3rem;
   bottom: 0;
 }
+
+.trick__icon {
+  font-size: 1.25rem;
+  color: var(--title-color);
+}
+
+.trick__content:hover .trick__img {
+  transform: translateY(-.5rem);
+}
+
+.trick__content:hover .trick__button {
+  right: 0;
+}
