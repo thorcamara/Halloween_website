@@ -725,3 +725,26 @@ button {
   background: #272525;
   border-radius: .5rem;
 }
+
+@media screen and (max-width: 320px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+
+  .home__img {
+    height: 200px;
+  }
+
+  .home__buttons {
+    flex-direction: column;
+    width: max-content;
+    row-gap: 1rem;
+  }
+
+  .category__container,
+  .trick__container {
+    grid-template-columns: .8fr;
+    justify-content: center;
+  }
+}
