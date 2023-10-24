@@ -701,3 +701,17 @@ button {
   opacity: .8;
   transition: .4s;
 }
+
+.scrollup__icon {
+  font-size: 1.25rem;
+  color: var(--title-color);
+}
+
+.scrollup:hover {
+  background: var(--container-color);
+  opacity: 1;
+}
+
+.show-scroll {
+  bottom: 3rem;
+}
