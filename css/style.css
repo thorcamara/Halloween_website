@@ -562,3 +562,16 @@ button {
 .new__icon {
   font-size: 1.25rem;
 }
+
+.new__content:hover .new__img {
+  transform: translateY(-.5rem);
+}
+
+.new__content:hover .new__button {
+  right: 0;
+}
+
+.newsletter__description {
+  text-align: center;
+  margin-bottom: var(--mb-1-5);
+}
