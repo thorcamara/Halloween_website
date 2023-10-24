@@ -594,3 +594,20 @@ button {
 .newsletter__input::placeholder {
   color: var(--text-color);
 }
+
+.footer {
+  position: relative;
+  overflow: hidden;
+}
+
+.footer__img-one,
+.footer__img-two {
+  position: absolute;
+  transition: .3s;
+}
+
+.footer__img-one {
+  width: 100px;
+  top: 6rem;
+  right: -2rem;
+}
