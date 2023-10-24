@@ -484,3 +484,18 @@ button {
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2);
 }
+
+.discount__img {
+  width: 200px;
+  justify-self: center;
+}
+
+.new__container {
+  padding-top: 1rem;
+}
+
+.new__img {
+  width: 120px;
+  margin-bottom: var(--mb-0-5);
+  transition: .3s;
+}
