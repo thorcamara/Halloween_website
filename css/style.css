@@ -387,3 +387,15 @@ button {
 .category__title {
   margin-bottom: var(--mb-0-25);
 }
+
+.category__data:hover .category__img {
+  transform: translateY(-.5rem);
+}
+
+.about__container {
+  row-gap: 2rem;
+}
+
+.about__data {
+  text-align: center;
+}
