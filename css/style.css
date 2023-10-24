@@ -525,3 +525,20 @@ button {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
+
+.new__subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.new__prices {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+.new__price {
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+}
