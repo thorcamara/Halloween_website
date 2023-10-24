@@ -358,3 +358,18 @@ button {
 .button--ghost:hover {
   background: none;
 }
+
+.button--link {
+  color: var(--title-color);
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+.category__container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 2rem;
+}
