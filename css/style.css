@@ -661,3 +661,19 @@ button {
 .footer__social-link:hover {
   background: var(--body-color);
 }
+
+.footer__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.footer__links {
+  display: grid;
+  row-gap: .35rem;
+}
+
+.footer__link {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  transition: .3s;
+}
